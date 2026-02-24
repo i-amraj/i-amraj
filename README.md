@@ -8,11 +8,9 @@
 - 📫 How to reach me: iamrajsoni1@gmail.com
 - ⚡ Fun fact: I love automating repetitive work 🚀
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=i-amraj&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/i._.amraj) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/raj-soni) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/i._.amraj) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)]([https://linkedin.com/in/raj-soni](https://www.linkedin.com/in/raj-soni-a87b27312?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 
 <!-- snake game repo view -->
 <div align="center">
