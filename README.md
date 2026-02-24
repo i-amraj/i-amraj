@@ -1,12 +1,12 @@
 # Hi 👋, I'm Raj
 
-🔭 I’m currently working on automation & web development projects
-🌱 I’m currently learning advanced Node.js and web scraping
-👯 I’m looking to collaborate on automation and open-source tools
-🤔 I’m looking for help with scaling backend systems
-💬 Ask me about Node.js, Playwright, PHP, and automation
-📫 How to reach me: https://github.com/i-amraj
-⚡ Fun fact: I love automating repetitive work 🚀
+- 🔭 I’m currently working on automation & web development projects  
+- 🌱 I’m currently learning advanced Node.js and web scraping  
+- 👯 I’m looking to collaborate on automation and open-source tools  
+- 🤔 I’m looking for help with scaling backend systems  
+- 💬 Ask me about Node.js, Playwright, PHP, and automation  
+- 📫 How to reach me: iamrajsoni1@gmail.com
+- ⚡ Fun fact: I love automating repetitive work 🚀
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=i-amraj&theme=radical&no-frame=false&no-bg=true&margin-w=4)
