@@ -36,6 +36,12 @@ Building scalable applications and automation tools that solve real problems. Ex
   <img src="https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white" height="35"/>
 </p>
 
+### Web Frameworks
+<p>
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white" height="35"/>
+  <img src="https://img.shields.io/badge/Laravel%204.2-FF2D20?style=flat&logo=laravel&logoColor=white" height="35"/>
+</p>
+
 ### Automation & Tools
 <p>
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" height="35"/>
@@ -89,35 +95,21 @@ Comprehensive video performance analysis utility for engagement metrics and cont
 
 ---
 
-## 📊 GitHub Statistics
+## 🚀 Space Shooter Game
+
+**Shoot down code blocks with your contributions!** Your GitHub activity powers the game speed.
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=i-amraj&show_icons=true&theme=dark&hide_border=true&count_private=true&line_height=27)
+![Space Shooter Game](assets/space-shooter.svg)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=i-amraj&theme=dark&hide_border=true&layout=compact&count_private=true)
+**Game Features:**
+- 🎮 Your commits = Game difficulty
+- 🎯 Contributions tracked in real-time
+- ⚡ Auto-updates weekly
+- 🏆 Shows your coding power!
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=i-amraj&theme=dark&hide_border=true)](https://github.com/i-amraj)
-
-</div>
-
----
-
-## 🔥 Contribution Activity
-
-<div align="center">
-
-[![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=i-amraj&theme=dark-dimmed&hide_border=true&area=true)](https://github.com/i-amraj)
-
-</div>
-
----
-
-## 🎯 3D Contribution Graph
-
-<div align="center">
-
-![3D Contribution Graph](https://github-profile-3d-contrib.vercel.app/profile/i-amraj)
+*Updates automatically via GitHub Actions every Sunday*
 
 </div>
 
