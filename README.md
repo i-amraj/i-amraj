@@ -95,9 +95,7 @@ Comprehensive video performance analysis utility for engagement metrics and cont
 
 ---
 
-## 🐍 Contribution Snake
 
-![Snake animation](https://github.com/YOUR-USERNAME/YOUR-USERNAME/blob/output/github-contribution-grid-snake.svg)
 ## 🤝 Let's Connect
 
 <p align="center">
