@@ -101,7 +101,16 @@ Comprehensive video performance analysis utility for engagement metrics and cont
 
 <div align="center">
 
-![Space Shooter Game](assets/space-shooter.svg)
+<!--
+If you want the game to actually run inside your profile README, you need to
+host the HTML somewhere and embed it in an `<iframe>` or show an animated GIF.
+Below we load the page using raw.githack; once you publish to GitHub Pages you
+can point directly at your site instead. Visitors will see the game start
+immediately when the README renders.
+-->
+
+<iframe src="https://raw.githack.com/i-amraj/i-amraj/main/game/index.html" 
+        frameborder="0" width="600" height="400" scrolling="no"></iframe>
 
 **Game Features:**
 - 🎮 Your commits = Game difficulty
@@ -112,6 +121,11 @@ Comprehensive video performance analysis utility for engagement metrics and cont
 *Updates automatically via GitHub Actions every Sunday*
 
 </div>
+
+> 💡 **Tip:** enable GitHub Pages for this repository or create a separate
+> `i-amraj.github.io` repo and push the same `game/index.html` there. Then
+> update the `src` of the iframe to `https://i-amraj.github.io/game/index.html`
+> for faster loading and better caching.
 
 ---
 
