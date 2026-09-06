@@ -1,0 +1,127 @@
+<svg width="100%" height="200" viewBox="0 0 880 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#060911" />
+    </linearGradient>
+
+    <linearGradient id="neonGSAP" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#88CE02" />
+      <stop offset="100%" stop-color="#00F2FE" />
+    </linearGradient>
+
+    <clipPath id="revealClip">
+      <rect class="revealer" x="0" y="0" width="130" height="150" rx="8" />
+    </clipPath>
+
+    <style>
+      @keyframes revealSweep {
+        0%, 100% { width: 40px; }
+        50% { width: 230px; }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 0.9; }
+      }
+      @keyframes radarRotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+
+      .revealer { animation: revealSweep 4s ease-in-out infinite; }
+      .glowBorder { animation: pulseGlow 2.5s ease-in-out infinite; }
+      .radarRing { transform-origin: 140px 100px; animation: radarRotate 12s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="880" height="200" rx="14" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.5" />
+  
+  <!-- Left Side: Interactive Reveal Visualization -->
+  <g transform="translate(25, 25)">
+    <!-- Canvas Frame -->
+    <rect width="240" height="150" rx="10" fill="#04060a" stroke="#334155" stroke-width="1" />
+    
+    <!-- Background Layer (Matrix Grid) -->
+    <g stroke="#88CE02" stroke-opacity="0.2" stroke-width="1">
+      <line x1="20" y1="0" x2="20" y2="150" />
+      <line x1="60" y1="0" x2="60" y2="150" />
+      <line x1="100" y1="0" x2="100" y2="150" />
+      <line x1="140" y1="0" x2="140" y2="150" />
+      <line x1="180" y1="0" x2="180" y2="150" />
+      <line x1="220" y1="0" x2="220" y2="150" />
+      <line x1="0" y1="30" x2="240" y2="30" />
+      <line x1="0" y1="60" x2="240" y2="60" />
+      <line x1="0" y1="90" x2="240" y2="90" />
+      <line x1="0" y1="120" x2="240" y2="120" />
+    </g>
+
+    <!-- Radar Sweep Effect -->
+    <g class="radarRing">
+      <circle cx="120" cy="75" r="50" fill="none" stroke="#00F2FE" stroke-opacity="0.25" stroke-dasharray="4 6" />
+      <line x1="120" y1="75" x2="160" y2="45" stroke="#00F2FE" stroke-width="1.5" stroke-opacity="0.7" />
+    </g>
+
+    <!-- Dynamic Animated Reveal Curtain Simulation -->
+    <g clip-path="url(#revealClip)">
+      <rect width="240" height="150" fill="#0284c7" fill-opacity="0.15" />
+      <circle cx="120" cy="75" r="45" fill="#88CE02" fill-opacity="0.3" filter="drop-shadow(0 0 10px #88CE02)" />
+      <text x="120" y="80" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11" font-weight="bold">60 FPS REVEAL</text>
+    </g>
+
+    <!-- Moving Reveal Sweep Border Line -->
+    <g class="revealer">
+      <line x1="0" y1="0" x2="0" y2="150" stroke="#00F2FE" stroke-width="2.5" />
+    </g>
+
+    <text x="120" y="140" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="9">LIVE SHADER EMULATION</text>
+  </g>
+
+  <!-- Right Side: Content and Details -->
+  <g transform="translate(295, 30)">
+    <!-- Header Tag -->
+    <rect width="135" height="20" rx="4" fill="#14532d" fill-opacity="0.4" stroke="#88CE02" stroke-width="1" />
+    <text x="67" y="14" text-anchor="middle" fill="#88CE02" font-family="'SF Mono', monospace" font-size="9" font-weight="700">★ FLAGSHIP REPO</text>
+
+    <!-- Project Title -->
+    <text x="0" y="48" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" letter-spacing="0.5">
+      Canvas Reveals Engine <tspan fill="#88CE02">(`gsap-reveals`)</tspan>
+    </text>
+
+    <!-- Description -->
+    <text x="0" y="74" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400">
+      Production-grade 60FPS interactive HTML5 Canvas compositing &amp; GSAP animation suite.
+    </text>
+    <text x="0" y="93" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400">
+      Includes 16+ fluid smoke, water ripples, polygon wipes &amp; standalone AI prompt files.
+    </text>
+
+    <!-- Badges Row -->
+    <g transform="translate(0, 115)">
+      <!-- Badge 1 -->
+      <rect width="90" height="24" rx="4" fill="#0f172a" stroke="#88CE02" stroke-width="1" />
+      <text x="45" y="16" text-anchor="middle" fill="#88CE02" font-family="monospace" font-size="10" font-weight="bold">GSAP 3.12</text>
+
+      <!-- Badge 2 -->
+      <g transform="translate(98, 0)">
+        <rect width="125" height="24" rx="4" fill="#0f172a" stroke="#00F2FE" stroke-width="1" />
+        <text x="62" y="16" text-anchor="middle" fill="#00F2FE" font-family="monospace" font-size="10" font-weight="bold">OFFSCREEN CANVAS</text>
+      </g>
+
+      <!-- Badge 3 -->
+      <g transform="translate(231, 0)">
+        <rect width="115" height="24" rx="4" fill="#0f172a" stroke="#c084fc" stroke-width="1" />
+        <text x="57" y="16" text-anchor="middle" fill="#c084fc" font-family="monospace" font-size="10" font-weight="bold">16+ SHADERS</text>
+      </g>
+
+      <!-- Badge 4 -->
+      <g transform="translate(354, 0)">
+        <rect width="135" height="24" rx="4" fill="#0f172a" stroke="#f59e0b" stroke-width="1" />
+        <text x="67" y="16" text-anchor="middle" fill="#f59e0b" font-family="monospace" font-size="10" font-weight="bold">AI PROMPT SUITE</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Accent Corner Glow -->
+  <circle cx="870" cy="10" r="40" fill="#88CE02" opacity="0.1" filter="blur(15px)" />
+</svg>
